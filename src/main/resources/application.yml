@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ko
+    username: root
+    password: zadzed1100!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+  servlet:
+    multipart:
+      file-size-threshold: 1MB
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+jwt:
+  access-secret: zRojHi0gClj8eTUG5DT6HCUAcgYDZ4SR
+  refresh-secret: zRojHi0gClj8eTUG5DT6HCUAcgYDZ4SR
+  access-exp: 10000
+  refresh-exp: 20000
+
+server:
+  port: 9060
