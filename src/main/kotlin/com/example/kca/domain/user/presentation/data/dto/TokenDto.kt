@@ -1,4 +1,4 @@
-package com.example.kca.domain.auth.presentation.data.dto
+package com.example.kca.domain.user.presentation.data.dto
 
 data class TokenDto(
     val accessToken: String,
