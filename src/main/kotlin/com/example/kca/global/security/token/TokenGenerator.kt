@@ -1,6 +1,6 @@
 package com.example.kca.global.security.token
 
-import com.example.kca.domain.auth.presentation.data.dto.TokenDto
+import com.example.kca.domain.user.presentation.data.dto.TokenDto
 import com.example.kca.global.security.token.common.properties.JwtExpTimeProperties
 import com.example.kca.global.security.token.common.properties.JwtProperties
 import io.jsonwebtoken.Jwts

@@ -37,4 +37,7 @@ class TokenParser(
             .build()
             .parseClaimsJws(token)
             .body
+
+    fun extractNameWithToken(token: String): String =
+        getTokenSubject(token, jwtProperties.accessSecret)
 }
